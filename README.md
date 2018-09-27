@@ -1,2 +1,2 @@
-# dob-2017-oct-w1
-DevOps Basics course - Week 1
+# dob-module-1
+DevOps Basics course - Module 1
