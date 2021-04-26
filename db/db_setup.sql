@@ -1,3 +1,4 @@
+set names 'utf8';
 create database bulgaria character set utf8 collate utf8_general_ci;
 grant all on bulgaria.* to 'web_user'@'%' identified by 'Password1';
 use bulgaria;
