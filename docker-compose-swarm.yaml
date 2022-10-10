@@ -7,16 +7,16 @@ services:
         ports:
             - 8080:80
         volumes:
-         - type:bind
-           source: /home/vagrant/docker-demo/web
-           target: /var/www/html
-           read_only: true
-           bind:
+        - type: bind
+          source: /home/vagrant/docker-demo/web
+          target: /var/www/html
+          read_only: true
+          bind:
              create_host_path: true
         networks:
             - app-network
     db:
-        image: shekeriev/docker-db
+        image: hristodinev123/docker-db
         networks:
             - app-network
         environment:
